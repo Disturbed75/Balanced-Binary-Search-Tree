@@ -1,6 +1,7 @@
 package com.sashafilth;
 
 import com.sashafilth.avl_binary_search_tree.AvlBinarySearchTree;
+import com.sashafilth.counting_sort.CountingSort;
 import com.sashafilth.metric.Metric;
 import com.sashafilth.tree.Tree;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -35,6 +36,11 @@ public class Main {
         }
 
         toXlsx(result);
+
+//        int[] arrToSort = new int[]{6, 8, 3, -12, 34};
+//
+//        CountingSort countingSort = new CountingSort(arrToSort);
+//        countingSort.sort();
     }
 
     private static Tree<Integer> generateDataSet(int numberOfElements) {
